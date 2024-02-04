@@ -1,18 +1,18 @@
-Task1 : Distinct Elements and Statistics
-This Java console application takes a space-separated list of integers as input and provides information about distinct elements and basic statistics.
+### Task1 - Distinct Elements and Statistics
+- This Java console application takes a space-separated list of integers as input and provides information about distinct elements and basic statistics.
 
-Usage :
+#### <ins>Usage :</ins>
 
-Run the program in the terminal.
-Enter a space-separated list of integers.
+- Run the program in the terminal.
+- Enter a space-separated list of integers.
 
-Features :
+#### <ins>Features :</ins>
 
 Converts input string to an array of integers.
 Finds distinct elements and sorts them in ascending order.
 Displays count, distinct count, minimum, and maximum values.
 
-Methods :
+#### <ins>Methods :</ins>
 
 convertToIntValues(String[] numbersAsStrings)
 Converts an array of strings to an array of integers.
@@ -29,13 +29,13 @@ Prints a string to the console.
 show(String key, int value)
 Prints a key-value pair to the console.
 
-Example :
+#### <ins>Example :</ins>
 
-Input :
+- Input :
 
 1 10 20 20 2 5
 
-Output :
+- Output :
 
 1 2 5 10 20
 
