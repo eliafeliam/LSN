@@ -17,7 +17,7 @@ public class Task2 {
         List<String> results = new ArrayList<>();
         for (int i = 0; i < elements.length - 1; i++) {
             for (int j = i + 1; j < elements.length; j++) {
-                if (elements[i] + elements[j] == 13 && elements[i] >= elements[j]) {
+                if (elements[i] + elements[j] == 13 && elements[i] <= elements[j]) {
                     addWithSort(results, elements[i], elements[j]);
                 }
             }
