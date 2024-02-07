@@ -29,10 +29,11 @@ Sorts and displays the pairs in ascending order.
 
 ### <ins>Example :
 
-- Input
+- Input :
+
 1 2 10 7 5 3 6 6 13 0
 
-- Output:
+- Output :
 
 0 13
 
