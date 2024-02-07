@@ -1,40 +1,46 @@
-Task3 : Separated Graphs Counter
+### <ins> Task3 : Separated Graphs Counter
 
-This Java console application takes input that defines connections between vertices and determines the number of separated graphs present in the input.
+- This Java console application takes input that defines connections between vertices and determines the number of separated graphs present in the input.
 
-Usage :
+#### <ins>Usage :
 
-Run the program in the terminal.
-Enter the number of connections followed by pairs of positive integers representing the connections between vertices.
+- Run the program in the terminal.
+- Enter the number of connections followed by pairs of positive integers representing the connections between vertices.
 
-Features :
+#### <ins>Features :
 
-Creates a graph representation based on the input connections.
-Counts the number of separated graphs in the input.
+- Creates a graph representation based on the input connections.
+- Counts the number of separated graphs in the input.
 
-Methods :
+#### <ins>Methods :
 
+```sh
 getCountOfGraphs(List<Integer> vertices)
+```
 Calculates and returns the number of separated graphs in the input.
 
+```sh
 tryAddToExistingGraph(Map<Integer, Set<Integer>> graphsMap, int vertex1, int vertex2)
+```
 Tries to add vertices to an existing graph if there is a connection.
+```sh
 
 putNewSetWithDefInit(Map<Integer, Set<Integer>> graphsMap, int countOfGraphs, int vertex1, int vertex2)
+```
 Creates a new set with vertices and initializes a new graph.
 
-Example :
+#### <ins> Example :
 
-Input :
+- Input :
 
-3
+      3
+      
+      4 3
+      
+      1 4
+      
+      5 6
 
-4 3
+- Output :
 
-1 4
-
-5 6
-
-Output :
-
-2
+      2
